@@ -1,0 +1,15 @@
+<html>
+<body>
+<h1> Liste des Produits </h1>
+
+<ul>
+    {% for p in test %}
+    <li>Nom: {{p.name}}<br/>Prix: {{p.price}} <br/> Description: {{p.description}}</li><br/>
+
+    {% endfor %}
+
+</ul>
+<li> <a href="{{ path('researchProduct')}}" </a>Back  </li>
+
+</body>
+</html>

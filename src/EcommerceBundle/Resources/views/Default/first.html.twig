@@ -1,0 +1,22 @@
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+	</head>
+
+	<body>
+ 		Hello
+		<br/>
+		date du jour :{{"now"|date("d/m/Y")}}
+
+		<ul>
+			<li> <a href="{{ path('second') }}" </a> SECOND </li>
+  			<li> <a href="{{ path('home')}}" </a> Back to home </li>
+		</ul>
+
+		{% block body %}
+
+
+		{% endblock %}
+	</body>
+</html>

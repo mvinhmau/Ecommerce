@@ -1,0 +1,6 @@
+ecommerce:
+    resource: '@EcommerceBundle/Controller'
+    type: annotation
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
